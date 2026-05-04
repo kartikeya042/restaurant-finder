@@ -1,5 +1,7 @@
 # Restaurant Finder for JIIT Students
 
+**Live Demo:** [https://restaurant-finder-8rec.onrender.com](https://restaurant-finder-8rec.onrender.com)
+
 A full-stack web application designed for students of Jaypee Institute of Information Technology (JIIT) to easily discover, explore, and bookmark nearby food spots, cafes, and restaurants around their campuses (Sector 62 & Sector 128) and other locations.
 
 ## Features
