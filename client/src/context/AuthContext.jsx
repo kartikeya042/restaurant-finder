@@ -2,10 +2,7 @@ import { createContext, useContext, useEffect, useMemo, useState } from 'react';
 
 const AuthContext = createContext(null);
 
-const API_BASE_URL =
-  import.meta.env.REACT_APP_API_URL ||
-  import.meta.env.VITE_API_URL ||
-  'http://localhost:5001';
+const API_BASE_URL = '';
 
 function decodePayload(token) {
   try {

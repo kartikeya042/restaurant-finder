@@ -1,10 +1,7 @@
 import { useState, useEffect } from 'react';
 import { useAuth } from '../../context/AuthContext';
 
-const API_BASE_URL =
-  import.meta.env.REACT_APP_API_URL ||
-  import.meta.env.VITE_API_URL ||
-  'http://localhost:5001';
+const API_BASE_URL = '';
 
 export default function ReviewSection({ restaurantId }) {
   const { token, user } = useAuth();

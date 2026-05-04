@@ -3,10 +3,7 @@ import { useAuth } from '../context/AuthContext';
 import { CAMPUSES, useLocation } from '../context/LocationContext';
 import RestaurantCard from '../components/search/RestaurantCard';
 
-const API_BASE_URL =
-  import.meta.env.REACT_APP_API_URL ||
-  import.meta.env.VITE_API_URL ||
-  'http://localhost:5001';
+const API_BASE_URL = '';
 
 const RADIUS_MIN = 1000;
 const RADIUS_MAX = 5000;

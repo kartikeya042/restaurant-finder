@@ -2,10 +2,7 @@ import { useEffect, useState } from 'react';
 import { useAuth } from '../context/AuthContext';
 import RestaurantCard from '../components/search/RestaurantCard';
 
-const API_BASE_URL =
-  import.meta.env.REACT_APP_API_URL ||
-  import.meta.env.VITE_API_URL ||
-  'http://localhost:5001';
+const API_BASE_URL = '';
 
 function domainOnly(url) {
   if (!url) return null;
